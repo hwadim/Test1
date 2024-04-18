@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>gallery</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/style.css">
+ <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+ <script src="./js/script.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="h_tit">
+    <p>PORTFOLIO</p>
+    <span>UI/UX DEVELOPMENT</span>
+   </div>
+   <!-- h_tit end -->
+   <div class="sns">
+    <ul>
+     <li><i class="fa-brands fa-square-twitter"></i><p>Twitter</p></li>
+     <li><i class="fa-brands fa-square-instagram"></i><p>Instagram</p></li>
+     <li><i class="fa-solid fa-square-envelope"></i><p>E-mail</p></li>
+    </ul>
+   </div>
+   <!-- sns end -->
+  </header>
+  <!-- header end -->
+  <section id="contents">
+   <div class="menu">
+    <ul>
+     <li data-filter=".even">WEB</li>
+     <li data-filter=".odd">DESIGN</li>
+     <li class="active" data-filter="*">ALL</li>
+    </ul>
+   </div>
+   <div class="gallery">
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/p1.png" alt="x">
+      <p>고미녕</p>
+      <span>곰인형 판매 사이트를 구현했습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox1 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/p2.png" alt="x">
+      <p>Dr.G 수분크림</p>
+      <span>Dr.G 수분크림 웹배너를 디자인 하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox2 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/p3.jpg" alt="x">
+      <p>빙그레 고구마맛 우유</p>
+      <span>빙그레 고구마맛 우유 웹배너를 디자인 하였습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox3 end -->
+    <div class="gallery_box even">
+     <a href="#">
+      <img src="./imgs/p4.png" alt="x">
+      <p>COMPOSE COFFEE</p>
+      <span>컴포즈 커피 사이트를 구현했습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox4 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/p5.png" alt="x">
+      <p>아마스빈 홈페이지</p>
+      <span>아마스빈 홈페이지를 리디자인하고 <br>
+       모바일버전도 디자인했습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox5 end -->
+    <div class="gallery_box odd">
+     <a href="#">
+      <img src="./imgs/p6.png" alt="x">
+      <p>코코도르 디퓨저 상세페이지</p>
+      <span>코코도르 하바리움 R 디퓨저 상세페이지를 디자인했습니다.</span>
+     </a>
+    </div>
+    <!-- gallerybox6 end -->
+   </div>
+  </section>
+ </div>
+
+ <div class="popup_wrap">
+  <div class="popup p1">
+   <div class="p_img">
+    <img src="./imgs/p1_pop.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/고미녕/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p1 end -->
+  <div class="popup p2">
+   <div class="p_img">
+    <img src="./imgs/p2_pop.png" alt="x">
+   </div>
+  </div>
+  <!-- p2 end -->
+  <div class="popup p3">
+   <div class="p_img">
+    <img src="./imgs/p3_pop.png" alt="x">
+   </div>
+  </div>
+  <!-- p3 end -->
+  <div class="popup p4">
+   <div class="p_img">
+    <img src="./imgs/p4_pop.png" alt="x">
+   </div>
+   <div class="site_click">
+    <a href="./sub_site/컴포즈커피/웹용/index.html">사이트 보러가기 CLICK</a>
+   </div>
+  </div>
+  <!-- p4 end -->
+  <div class="popup p5">
+   <div class="p_img">
+    <img src="./imgs/p5_pop.png" alt="x">
+   </div>
+  </div>
+  <!-- p5 end -->
+  <div class="popup p6">
+   <div class="p_img">
+    <img src="./imgs/p6_pop.png" alt="x">
+   </div>
+  </div>
+  <!-- p6 end -->
+
+  <div class="p_close">x</div> 
+ </div>
+ <!-- popup_wrap end -->
+</body>
+</html>
